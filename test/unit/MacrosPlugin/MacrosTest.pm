@@ -2,7 +2,8 @@ use strict;
 
 package MacrosTest;
 
-use base qw(FoswikiTestCase);
+use FoswikiTestCase;
+our @ISA = qw( FoswikiTestCase );
 
 use TWiki::Store;
 use TWiki::Func;
